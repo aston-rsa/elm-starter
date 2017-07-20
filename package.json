@@ -1,0 +1,26 @@
+{
+  "name": "hero",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "NODE_ENV=prod webpack",
+    "start": "webpack-dev-server"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "copy-webpack-plugin": "^4.0.1",
+    "css-loader": "^0.28.4",
+    "elm-webpack-loader": "^4.3.1",
+    "html-webpack-plugin": "^2.29.0",
+    "postcss-cssnext": "^3.0.2",
+    "postcss-loader": "^2.0.6",
+    "react-dev-utils": "^3.0.2",
+    "react-error-overlay": "^1.0.9",
+    "rimraf": "^2.6.1",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.3.0",
+    "webpack-dev-server": "^2.5.1"
+  }
+}
