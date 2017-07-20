@@ -1,4 +1,4 @@
-import Elm from '../Main';
+import Elm from '../elm/Main';
 import '../css/index.css';
 
 Elm.Main.fullscreen();
