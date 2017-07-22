@@ -5,7 +5,8 @@
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "NODE_ENV=prod webpack",
-    "start": "webpack-dev-server"
+    "start": "webpack-dev-server",
+    "deps": "yarn install && elm-package install -y"
   },
   "devDependencies": {
     "babel-core": "^6.25.0",
